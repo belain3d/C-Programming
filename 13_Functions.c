@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void sayHi(char user[]) {
+void sayHi(char* user) {
     printf("Hiya, %s\n", user);
 }
 
