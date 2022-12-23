@@ -27,6 +27,6 @@ int main() {
     printf("Add meg az óránkénti fizetést: ");
     scanf("%d", &payPerHour);
 
-    printf("%s fizetése %d %s.", name, salary(hours, payPerHour), currency);
+    printf("%s évi fizetése %d %s.", name, salary(hours, payPerHour), currency);
 
 }
