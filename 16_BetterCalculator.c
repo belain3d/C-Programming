@@ -51,5 +51,4 @@ int main() {
         printf("%f", division(firstNumber, secondNumber));
     }
 
-
 }

@@ -1,0 +1,3 @@
+Jim, Salesman
+Pam, Receptionist
+Oscar, Accounting
