@@ -17,6 +17,7 @@ int main() {
     double celsius;
     double fahrenheit;
     double variable;
+    
     int choice;
 
     printf("Welcome to belain3d's tempConverter program!\n\n");
@@ -29,11 +30,13 @@ int main() {
         printf("Enter the amount of degree Celsius to be converted: ");
         scanf("%lf", &celsius);
         printf("%lf", celsiusToFahrenheit(celsius));
+        break;
 
         case 2:
         printf("Enter the amount of Fahrenheit to be converted: ");
         scanf("%lf", &fahrenheit);
         printf("%lf", fahrenheitToCelsius(fahrenheit));
+        break;
 
         default:
         printf("Enter the amount of degree Celsius to be converted: ");
